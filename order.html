@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BIG BREW WEBSITE</title>
+<link rel="icon" type="image/x-icon" href="img/logo.jpg">
+<link rel="stylesheet" href="order.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <script defer src="order.js"></script>
+
+        <div class="bgop">
+            <div class="mainnav">
+                <a href="#home" class="logolink"><img class="logo" src="img/logo.jpg"><span>BIG BREW</span></a>
+        
+        
+                <nav class="navtext">
+                    <ul>
+                        <a href="main.html"><li>Home</li></a>
+                        <a href="about.html"><li>About Us</li></a>
+                        <a href="order.html"><li>Menu</li></a>
+                        <a href="#contact"><li>Inquire Now</li></a>
+                    </ul>
+                </nav>
+         
+                <nav class="navlink">
+                    <ul>
+                        <a href="#home"><img src="img/weblink/fb.png" class="nav-iconhov"></a>
+                        <a href="#home"><img src="img/weblink/ig.png" class="nav-iconhov"></a>
+                        <a href="#home"><img src="img/weblink/x.png" class="nav-iconhov"></a>
+                        <a href="#home"><img src="img/weblink/map.png" class="nav-iconhov"></a>
+                    </ul>
+                </nav>
+        
+            </div>
+        </div>
+
+        <div class="cont-center">
+            <div class="circular-bg"></div>
+            <div class="orders">
+                <div class="order1">
+                    <img src="img\piclink\MT\mt_okinawa.jpg" alt="Milktea Pic" class="imgpng">
+                    <img src="img\piclink\MT\mt_matcha.jpg" alt="Milktea Pic" class="imgpng">
+                    <img src="img\piclink\MT\mt_taro.jpg" alt="Milktea Pic" class="imgpng">
+                </div>
+                <div class="order2">
+                    <img src="img\piclink\FT\ft_mango.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_kiwi.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_strawberry.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_lemon.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_greena.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_lychee.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_pf.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_rasberry.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_wtm.jpg" alt="Fruit Tea" class="imgpng">
+                    <img src="img\piclink\FT\ft_blueberry.jpg" alt="Fruit Tea" class="imgpng">
+                </div>
+                <div class="order3">
+                    <img src="img\piclink\ick.jpg" alt="Iced Coffee" class="imgpng">
+
+                </div>
+                <div class="order4">
+                    <img src="img\piclink\hb.jpg" alt="Hot Brew" class="imgpng">
+
+                </div>
+                <div class="order5">
+                    <img src="img\piclink\pf.jpg" alt="Praf" class="imgpng">
+
+                </div>
+            </div>
+        </div>  
+
+        <div class="btnnext-cont">
+                <!-- To move left -->
+            <button class="btnnext" onclick="moveLeft()">&#9755;</button>
+            
+            <!-- To move right -->
+            <button class="btnpre"  onclick="moveRight()" id="moveRightButton" disabled>&#9754;</button>
+        </div>
+
+        <div class="button_mt">
+            <div class="column">
+                    <!-- To switch picture -->
+                <div class="flavcont">
+                    <button id="okinawabtn" class="btnhover"></button>
+                    <p>OKINAWA</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="matchabtn" class="btnhover"></button>
+                    <p>MATCHA</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="tarobtn" class="btnhover"></button>
+                    <p>TARO</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="wintermelonbtn" class="btnhover"></button>
+                    <p>WINTERMELON</p>
+                </div>
+            </div>
+    
+            <div class="column">
+                <div class="flavcont">
+                    <button id="darkbtn" class="btnhover"></button>
+                    <p>DARK<br>CHOCO</p>
+                </div>
+    
+                <div class="flavcont">
+                    <button id="chocobtn" class="btnhover"></button>
+                    <p>CHOCOLATE</p>
+                </div>
+    
+                <div class="flavcont">
+                    <button id="redvelbtn" class="btnhover"></button>
+                    <p>RED<br>VELVET</p>
+                </div>
+    
+                <div class="flavcont">
+                    <button id="strawbtn" class="btnhover"></button>
+                    <p>STRAWBERRY</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="button_ft">
+            <!-- To switch picture -->
+            <div class="column">
+                <div class="flavcont">
+                    <button id="mangobtn" class="btnhover"></button>
+                    <p>MANGO</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="kiwibtn" class="btnhover"></button>
+                    <p>KIWI</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="strawberrybtn" class="btnhover"></button>
+                    <p>STRAWBERRY</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="lemonbtn" class="btnhover"></button>
+                    <p>LEMON</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="greeapplebtn" class="btnhover"></button>
+                    <p>GREEN<br>APPLE</p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="flavcont">
+                    <button id="lycheebtn" class="btnhover"></button>
+                    <p>LYCHEE</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="passionbtn" class="btnhover"></button>
+                    <p>PASSION<br>FRUIT</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="rasberrybtn" class="btnhover"></button>
+                    <p>RASBERRY</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="watermelonbtn" class="btnhover"></button>
+                    <p>WATERMELON</p>
+                </div>
+
+                <div class="flavcont">
+                    <button id="blueberrybtn" class="btnhover"></button>
+                    <p>BLUEBERRY</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

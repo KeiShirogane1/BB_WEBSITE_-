@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    background-image: url(img/bg.jpg);
+    overflow: hidden;
+}
+
+/*
+     NAVIGATION
+*/
+
+.mainnav{
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 52.800px;
+    z-index: 2;
+    background-color: #b88505;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ 
+.logolink{
+    background-color: #845118;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 20px;
+    float: left;
+}
+
+.logolink span{
+    padding-right: 10px;
+}
+
+.logolink:hover{
+    background-color: #D48429;
+}
+
+.logolink:active{
+    background-color: #ac6d26;
+}
+
+.logo{
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    min-height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navlink{
+    float: right;
+    align-items: center;
+}
+
+        .navlink ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navlink ul a{
+            padding-left: 10px;
+        }
+
+        .navlink ul a:last-child{
+            padding-right: 20px;
+            margin-left: 2em;
+        }
+
+        .navlink ul a img{
+            width: 40px;
+            height: auto;
+            text-decoration: none;
+            list-style: none;
+        }
+
+                
+
+.navtext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navtext ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    border: solid 3px black;
+    border-radius: 28px;
+    margin: 0;
+}
+
+        .navtext ul a {
+            padding: 10px 40px 10px 40px;
+            background-color: #c7a900;
+            border: solid 1px black;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .navtext ul a:first-child{
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+        }
+
+        .navtext ul a:last-child{
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        .navtext ul a li {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navtext ul a:hover{
+            background-color: #bdc700;
+        }
+
+        .navtext ul a:active{
+            background-color: #9ea603;
+        }
+
+        
+.navtext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navtext ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    border: solid 3px black;
+    border-radius: 28px;
+    margin: 0;
+}
+
+        .navtext ul a {
+            padding: 10px 40px 10px 40px;
+            background-color: #c7a900;
+            border: solid 1px black;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .navtext ul a:first-child{
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+        }
+
+        .navtext ul a:last-child{
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        .navtext ul a li {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navtext ul a:hover{
+            background-color: #bdc700;
+        }
+
+        .navtext ul a:active{
+            background-color: #9ea603;
+        }
+
+        .about-cont {
+            height: 500px;
+            width: 1000px;
+            margin: 7em auto 0 auto;
+            display: flex;
+        }
+
+        .about-blur{
+            position: absolute;
+            filter: blur(10px);
+            background-color: rgb(218, 127, 14);
+            height: 500px;
+            width: 1000px;
+            z-index: -1;
+
+        }
+
+        .about-cont p{
+            padding: 20px;
+        }

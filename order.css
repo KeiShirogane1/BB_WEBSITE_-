@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+    background-image: url(img/bg.jpg);
+    overflow: hidden;
+}
+
+/*
+     NAVIGATION
+*/
+
+.mainnav{
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-height: 52.800px;
+    z-index: 2;
+    background-color: #b88505;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ 
+.logolink{
+    background-color: #845118;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 20px;
+    float: left;
+}
+
+.logolink span{
+    padding-right: 10px;
+}
+
+.logolink:hover{
+    background-color: #D48429;
+}
+
+.logolink:active{
+    background-color: #ac6d26;
+}
+
+.logo{
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    min-height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navlink{
+    float: right;
+    align-items: center;
+}
+
+        .navlink ul{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navlink ul a{
+            padding-left: 10px;
+        }
+
+        .navlink ul a:last-child{
+            padding-right: 20px;
+            margin-left: 2em;
+        }
+
+        .navlink ul a img{
+            width: 40px;
+            height: auto;
+            text-decoration: none;
+            list-style: none;
+        }
+
+                
+
+.navtext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navtext ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    border: solid 3px black;
+    border-radius: 28px;
+    margin: 0;
+}
+
+        .navtext ul a {
+            padding: 10px 40px 10px 40px;
+            background-color: #c7a900;
+            border: solid 1px black;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .navtext ul a:first-child{
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+        }
+
+        .navtext ul a:last-child{
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        .navtext ul a li {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navtext ul a:hover{
+            background-color: #bdc700;
+        }
+
+        .navtext ul a:active{
+            background-color: #9ea603;
+        }
+
+
+.navtext{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navtext ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    border: solid 3px black;
+    border-radius: 28px;
+    margin: 0;
+}
+
+        .navtext ul a {
+            padding: 10px 40px 10px 40px;
+            background-color: #c7a900;
+            border: solid 1px black;
+            font-size: 20px;
+            text-decoration: none;
+
+        }
+
+        .navtext ul a:first-child{
+            border-top-left-radius: 24px;
+            border-bottom-left-radius: 24px;
+        }
+
+        .navtext ul a:last-child{
+            border-top-right-radius: 24px;
+            border-bottom-right-radius: 24px;
+        }
+
+        .navtext ul a li {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navtext ul a:hover{
+            background-color: #bdc700;
+        }
+
+        .navtext ul a:active{
+            background-color: #9ea603;
+        }
+
+.cont-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1400px;
+    height: 650px;    
+    margin: 2em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        .circular-bg{
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            box-shadow: #ac6d26 0px 22px 70px 4px;
+        }
+        
+        .orders {
+            width: 300px;
+            height: 480px;
+            display: flex;
+            transition: transform 0 ease; /* Add transition for smooth movement */
+        }
+    
+        .orders.move-left {
+            transform: translateX(-100%);
+        }
+        
+        .orders.move-right {
+            transform: translateX(100%);
+        }
+        
+        /* Adjust transition for smoother animation */
+        .orders img {
+            width: 300px;
+            height: auto;
+            transition: transform 0.2s ease; /* Increased transition time for smoother animation */
+            border-radius: 10px;
+        }
+
+        .btnnext-cont button{
+            position: absolute;
+            font-size: 50px;
+            border-radius: 20px;
+            padding: 0 10px 0 10px;
+            top: 50%;
+            color: #cb7b0c;
+            background-color: #3f2708;
+        }
+
+        .btnnext-cont button:hover{
+            background-color: #4c2f08;
+        }
+
+                .btnnext{
+                    right: 35%;
+                }
+
+                .btnpre{
+                    left: 35%;
+                }
+
+.order1, .order2{
+    display: flex;
+}
+
+.button_mt, .button_ft{
+    position: absolute;
+    top: 55%;
+    right: 2.3%;
+    transform: translate(0, -50%);   
+    z-index: -1;
+    background-color: #d19b26;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flavcont{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    margin: 20px;
+}
+
+        .flavcont p{
+            font-family: "Poetsen One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+.order1 img:nth-child(n+2):nth-child(-n+10) {
+    position: absolute;
+    z-index: -1;
+}
+
+        #okinawabtn, #matchabtn,#tarobtn,#wintermelonbtn,#darkbtn,#chocobtn,#redvelbtn,#strawbtn{
+            padding: 20px;
+            border-radius: 50%;
+            margin: 3px;
+            border: solid 3px black;
+            margin: 5px;
+        }
+
+                .btnhover:hover{
+                    filter: brightness(70%);
+                }
+
+        #okinawabtn{
+            background-color: #cc946f;
+        }
+
+        #wintermelonbtn{
+            background-color: #b77447;
+        }
+
+        #matchabtn{
+            background-color: #3ca43c;
+        }
+
+        #tarobtn{
+            background-color: #781f69;
+        }
+
+        #darkbtn{
+            background-color: #342406;
+        }
+
+        #chocobtn{
+            background-color: #7a4105;
+        }
+
+        #redvelbtn{
+            background-color: #952525;
+        }
+
+        #strawbtn{
+            background-color: #c83086;
+        }
+
+.order2 img:nth-child(n+2):nth-child(-n+10) {
+    position: absolute;
+    z-index: -1;
+}
+
+        #mangobtn, #kiwibtn, #strawberrybtn,#greeapplebtn ,#lemonbtn ,#passionbtn ,#lycheebtn ,#rasberrybtn ,#blueberrybtn ,#watermelonbtn{
+            padding: 20px;
+            border-radius: 50%;
+            margin: 3px;
+            border: solid 3px black;
+            margin: 5px;
+        }
+
+        #mangobtn{
+            background-color: #d3c00f;
+        }
+
+        #kiwibtn{
+            background-color: #20c920;
+        }
+
+        #strawberrybtn{
+            background-color: #a61616;
+        }
+
+        #greeapplebtn{
+            background-color: #01430a;
+        }
+
+        #lemonbtn{
+            background-color: #b7e331;
+        }
+
+        #passionbtn{
+            background-color: #c67505;
+        }
+
+        #lycheebtn{
+            background-color: #e2d454;
+        }
+
+        #rasberrybtn{
+            background-color: #950909;
+        }
+        
+        #blueberrybtn{
+            background-color: #4a0373;
+        }
+
+        #watermelonbtn{
+            background-color: #ca2b2b;
+        }
+
+        
+        
